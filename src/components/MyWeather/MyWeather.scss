@@ -1,0 +1,19 @@
+.my-weather-access {
+    margin: 30px;
+    width: 350px;
+    height: 257px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #F1F2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .my-weather-access__in {
+        h1 {
+            font-size: 20px;
+            font-family: Jost;
+            font-weight: 300;
+        }
+    }
+}

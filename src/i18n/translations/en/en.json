@@ -1,0 +1,18 @@
+{
+    "language":"en",
+    "mistake1":"need to fill",
+    "mistake2":"need more symbols",
+    "mistake3":"less symbols",
+    "button": "Add",
+    "city": "city...",
+    "feels":"feels like",
+    "wind":"Wind:",
+    "speed":"m/s",
+    "humidity":"Humidity:",
+    "pressure":"Pressure:",
+    "pa":"Pa",
+    "access":"allow access to geodata",
+    "modal1":"this city is already on the page",
+    "modal2":"or is it not in the search",
+    "modal3":"or other error"
+}

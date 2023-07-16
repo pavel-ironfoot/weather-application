@@ -1,0 +1,43 @@
+.modal-mistake {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.575);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+
+    .modal-mistake__content {
+        padding: 20px;
+        width: 350px;
+        height: 107px;
+        border-radius: 5px;
+        background-color: #FFFAF1;
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            color: black;
+            text-align: center;
+        }
+
+        .modal-mistake__button {
+            margin-left: 90%;
+            background-color: rgba(128, 128, 128, 0);
+            border: none;
+            rotate: 45deg;
+            font-size: 20px;
+            font-weight: 600;
+            color: #C5C5C5;
+        }
+    }
+
+}
+
+.modal-mistake__active {
+    transform: scale(1);
+}
