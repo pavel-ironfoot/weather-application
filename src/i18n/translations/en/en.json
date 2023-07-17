@@ -12,6 +12,7 @@
     "pressure":"Pressure:",
     "pa":"Pa",
     "access":"allow access to geodata",
+    "access1":"and reload the page",
     "modal1":"this city is already on the page",
     "modal2":"or is it not in the search",
     "modal3":"or other error"

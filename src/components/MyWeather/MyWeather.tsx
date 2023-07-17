@@ -24,6 +24,7 @@ export const MyWeather: React.FC = () => {
         <h1>
           {t("access")}
         </h1>
+        <h1>{t("access1")}</h1>
       </div>
     </div>
     );
