@@ -1,6 +1,5 @@
 import { ChangeEvent, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import lengImg from './../../images/Icon-material-language.png'
 
 import './DropDownMenu.scss';
 
@@ -25,7 +24,7 @@ export const DropDownMenu = () => {
 
   return (
     <div className='drop-down-menu'>
-      <img src={lengImg} alt="icon" />
+      <img src={process.env.PUBLIC_URL + '/Icon-material-language.png'} />
       <select value={selectedOption} onChange={handleOptionChange}>
         <option className='drop-down-menu__option' value="en">EN</option>
         <option className='drop-down-menu__option' value="ua">UA</option>

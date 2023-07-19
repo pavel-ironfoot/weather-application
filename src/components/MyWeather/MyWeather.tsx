@@ -31,7 +31,7 @@ export const MyWeather: React.FC = () => {
   }
 
   return (
-    <div>
+    
       <WeatherCard
         celsius={true}
         weather={weather.weather[0].main}
@@ -46,7 +46,7 @@ export const MyWeather: React.FC = () => {
         humidity={weather.main.humidity}
         speed={weather.wind.speed}
         pressure={weather.main.pressure}
-      /></div>
+      />
 
   );
 };
