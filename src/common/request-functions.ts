@@ -19,7 +19,7 @@ export const fetchDataMyWeather = async (latitude: number, longitude: number, se
 
 export const fetchDataOneCard = async (city: string, setOneCardWeather: React.Dispatch<React.SetStateAction<any>>) => {
   try {
-    const response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${MY_OPENWEATHERMAP_API_KEY}`);
+    const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${MY_OPENWEATHERMAP_API_KEY}`);
 
     if (response.status !== 200) {
       throw new Error('Network Error');

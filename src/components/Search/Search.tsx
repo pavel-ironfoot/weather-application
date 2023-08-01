@@ -29,7 +29,7 @@ export const Search = () => {
   const onSubmit: SubmitHandler<TownFormData> = async (data) => {
     const fetchDataOn = async (city: string) => {
       try {
-        const response = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${MY_OPENWEATHERMAP_API_KEY}`);
+        const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${MY_OPENWEATHERMAP_API_KEY}`);
         if (response.status !== 200) {
           throw new Error('Network Error');
         } else {
